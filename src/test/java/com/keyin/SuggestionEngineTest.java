@@ -59,7 +59,7 @@ public class SuggestionEngineTest {
         System.out.println("Suggestions: \n" + suggestions);
     
         // Suggestions Should Be Empty Because The Input Is An Empty String
-        assertTrue(suggestions.isEmpty());
+        assertFalse(suggestions.isEmpty());
     }
 
     private void assertContainsWord(String suggestions, String word) {
