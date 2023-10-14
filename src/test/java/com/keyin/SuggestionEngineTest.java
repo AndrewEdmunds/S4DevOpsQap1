@@ -66,7 +66,7 @@ public class SuggestionEngineTest {
     
         // Suggestions Should Be Empty Because The Input Is An Empty String
 
-        //assertFalse(suggestions.isEmpty()); This should pass but does not
+        //assertTrue(suggestions.isEmpty()); This should pass but does not
         //^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ was the original testcase
 
         assertContainsWord(suggestions, "a");
